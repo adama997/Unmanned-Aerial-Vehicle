@@ -277,8 +277,8 @@ class Scenario:
 
 
 # Exemple de scénario
-
-obstacle,panel = Obstacles(Z_Toulouse)
-file = '/home/robot/Documents/AVI/PIR_DRONES/Scenario_10_10.csv'
-scenario = Scenario(Toulouse(), 10, 10,'rrt',obstacle,panel,file)
+if __name__ == "__main__":
+    obstacle,panel = Obstacles(Z_Toulouse)
+    file = '/home/robot/Documents/AVI/PIR_DRONES/Scenario_10_10.csv'
+    scenario = Scenario(Toulouse(), 10, 10,'rrt',obstacle,panel,file)
 
