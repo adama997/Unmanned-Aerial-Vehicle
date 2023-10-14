@@ -14,3 +14,5 @@ Three (03) main algorithms are been implemented in this project.
 3-> Panel method ("Panel_V01.py" : method which use fluid mechanic properties for path planning).
 
 Alongside these algorithms which are implemented, there are in this project a visualization function ("Plot.py" : for plotting), a scenario function ("Scenario.py" : for describing operations scenario), a drone modeling function ("Drones_V01.py" : models the drone or UAV) and an oriented graph("graph.py" : for traffic simulation based on the architecture of Toulouse city - France) and "Function.py" for some use cases functions for python files described above.
+
+To execute : run the "Scenario.py" file. An exemple is already done with RRT algorithm.
